@@ -1,0 +1,2 @@
+[0627/182142:INFO:CONSOLE(21)] "JQMIGRATE: Logging is active", source:  (21)
+[0627/182144:INFO:CONSOLE(0)] "The source list for Content Security Policy directive 'script-src' contains an invalid source: ''strict-dynamic''. It will be ignored.", source: https://accounts.google.com/o/oauth2/iframe#origin=https%3A%2F%2Fdisqus.com&rpcToken=905449018.4085667&clearCache=1 (0)
