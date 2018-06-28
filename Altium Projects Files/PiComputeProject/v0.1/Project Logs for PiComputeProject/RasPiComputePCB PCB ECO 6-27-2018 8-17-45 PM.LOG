@@ -1,0 +1,222 @@
+Change component parameters: Designator = "U1"; Footprint = "QFP80P900X900X145-32N"; UniqueID = "\VOGRCVCR"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Availability"; Value = "Good"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "TUSB2046BVFR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "LQFP-32 Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "2.39 USD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/TUSB2046BVFR/Texas%20Instruments/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "J2"; Footprint = "TE_2201778-1"; UniqueID = "\HPOTWIGE"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Availability"; Value = "Good"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Centerline_Pitch"; Value = "1.1 mm[.04 in]"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "EU_RoHS_Compliance"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Link"; Value = "http://www.te.com/usa-en/product-2201778-1.html"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "2201778-1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number_of_Positions"; Value = "8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "2.18 USD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Product_Type"; Value = "Removable Memory Products"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/2201778-1/TE%20Connectivity%20AMP%20Connectors/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "J1"; Footprint = "TE_1717254-1_1717254-1(Primary)"; UniqueID = "\PEDFHHBD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Centerline_Pitch"; Value = ".6 mm[.024 in]"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digi-Key_Part_Number"; Value = "A111047CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1717254-1/A111047CT-ND/4142431?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "EU_RoHS_Compliance"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Link"; Value = "http://www.te.com/usa-en/product-1717254-1.html"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "1717254-1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number_of_Positions"; Value = "200"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Product_Type"; Value = "Socket"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/1717254-1/TE%20Connectivity%20AMP%20Connectors/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C1(0402C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CMPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFG"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFGPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Noplace"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power_WV_SRF"; Value = "25V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempCo"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4.7uF"; VariantName = "[No Variations]"
+Added Component: Designator=R1(0402C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CMPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFG"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFGPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Noplace"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power_WV_SRF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "27"; VariantName = "[No Variations]"
+Added Component: Designator=R2(0402C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CMPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFG"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFGPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Noplace"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power_WV_SRF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "27"; VariantName = "[No Variations]"
+Added Component: Designator=R3(0402C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CMPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFG"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFGPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Noplace"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power_WV_SRF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "27"; VariantName = "[No Variations]"
+Added Component: Designator=R4(0402C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CMPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFG"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFGPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Noplace"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power_WV_SRF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "27"; VariantName = "[No Variations]"
+Added Component: Designator=R5(0402C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CMPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFG"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFGPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Noplace"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power_WV_SRF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "27"; VariantName = "[No Variations]"
+Added Component: Designator=R6(0402C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CMPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFG"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFGPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Noplace"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power_WV_SRF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "27"; VariantName = "[No Variations]"
+Added Component: Designator=R7(0402C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CMPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFG"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFGPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Noplace"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power_WV_SRF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "27"; VariantName = "[No Variations]"
+Added Component: Designator=R8(0402C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CMPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFG"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFGPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Noplace"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power_WV_SRF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "27"; VariantName = "[No Variations]"
+Added Component: Designator=R9(0402C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CMPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFG"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFGPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Noplace"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power_WV_SRF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "27"; VariantName = "[No Variations]"
+Added Component: Designator=R10(0402C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CMPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFG"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFGPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Noplace"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power_WV_SRF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "27"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=DS0_USB1_N Pin=R7-1
+Added Pin To Net: NetName=DS0_USB1_N Pin=U1-11
+Added Net: Name=DS0_USB1_N
+Added Pin To Net: NetName=DS0_USB1_P Pin=R2-1
+Added Pin To Net: NetName=DS0_USB1_P Pin=U1-12
+Added Net: Name=DS0_USB1_P
+Added Pin To Net: NetName=DS0_USB2_N Pin=R8-1
+Added Pin To Net: NetName=DS0_USB2_N Pin=U1-15
+Added Net: Name=DS0_USB2_N
+Added Pin To Net: NetName=DS0_USB2_P Pin=R3-1
+Added Pin To Net: NetName=DS0_USB2_P Pin=U1-16
+Added Net: Name=DS0_USB2_P
+Added Pin To Net: NetName=DS0_USB3_N Pin=R9-1
+Added Pin To Net: NetName=DS0_USB3_N Pin=U1-19
+Added Net: Name=DS0_USB3_N
+Added Pin To Net: NetName=DS0_USB3_P Pin=R4-1
+Added Pin To Net: NetName=DS0_USB3_P Pin=U1-20
+Added Net: Name=DS0_USB3_P
+Added Pin To Net: NetName=DS0_USB4_N Pin=R10-1
+Added Pin To Net: NetName=DS0_USB4_N Pin=U1-23
+Added Net: Name=DS0_USB4_N
+Added Pin To Net: NetName=DS0_USB4_P Pin=R5-1
+Added Pin To Net: NetName=DS0_USB4_P Pin=U1-24
+Added Net: Name=DS0_USB4_P
+Added Pin To Net: NetName=DS1_USB1_N Pin=R7-2
+Added Net: Name=DS1_USB1_N
+Added Pin To Net: NetName=DS1_USB1_P Pin=R2-2
+Added Net: Name=DS1_USB1_P
+Added Pin To Net: NetName=DS1_USB2_N Pin=R8-2
+Added Net: Name=DS1_USB2_N
+Added Pin To Net: NetName=DS1_USB2_P Pin=R3-2
+Added Net: Name=DS1_USB2_P
+Added Pin To Net: NetName=DS1_USB3_N Pin=R9-2
+Added Net: Name=DS1_USB3_N
+Added Pin To Net: NetName=DS1_USB3_P Pin=R4-2
+Added Net: Name=DS1_USB3_P
+Added Pin To Net: NetName=DS1_USB4_N Pin=R10-2
+Added Net: Name=DS1_USB4_N
+Added Pin To Net: NetName=DS1_USB4_P Pin=R5-2
+Added Net: Name=DS1_USB4_P
+Added Pin To Net: NetName=US0_USB0_N Pin=R6-1
+Added Pin To Net: NetName=US0_USB0_N Pin=U1-2
+Added Net: Name=US0_USB0_N
+Added Pin To Net: NetName=US0_USB0_P Pin=R1-1
+Added Pin To Net: NetName=US0_USB0_P Pin=U1-1
+Added Net: Name=US0_USB0_P
+Added Pin To Net: NetName=US1_USB0_N Pin=J1-167
+Added Pin To Net: NetName=US1_USB0_N Pin=R6-2
+Added Net: Name=US1_USB0_N
+Added Pin To Net: NetName=US1_USB0_P Pin=J1-165
+Added Pin To Net: NetName=US1_USB0_P Pin=R1-2
+Added Net: Name=US1_USB0_P
+Added Differential Pair: Name=DS0_USB1
+Added Differential Pair: Name=DS1_USB1
+Added Differential Pair: Name=DS1_USB2
+Added Differential Pair: Name=DS1_USB3
+Added Differential Pair: Name=DS1_USB4
+Added Differential Pair: Name=US0_USB0
+Added Differential Pair: Name=US1_USB0
+Added Member To Class: ClassName=USB_HUB Member=Component C1 4.7uF
+Added Member To Class: ClassName=USB_HUB Member=Component R1 27
+Added Member To Class: ClassName=USB_HUB Member=Component R2 27
+Added Member To Class: ClassName=USB_HUB Member=Component R3 27
+Added Member To Class: ClassName=USB_HUB Member=Component R4 27
+Added Member To Class: ClassName=USB_HUB Member=Component R5 27
+Added Member To Class: ClassName=USB_HUB Member=Component R6 27
+Added Member To Class: ClassName=USB_HUB Member=Component R7 27
+Added Member To Class: ClassName=USB_HUB Member=Component R8 27
+Added Member To Class: ClassName=USB_HUB Member=Component R9 27
+Added Member To Class: ClassName=USB_HUB Member=Component R10 27
+Added Room: Name=Connectors
+Added Room: Name=USB_HUB

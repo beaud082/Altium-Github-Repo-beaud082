@@ -1,0 +1,57 @@
+Removed Pin From Net: NetName=GND Pin=U1-27
+Removed Pin From Net: NetName=GND Pin=U1-31
+Added Component: Designator=C?(0402C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CMPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFG"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFGPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Noplace"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power_WV_SRF"; Value = "25V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempCo"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.01uF"; VariantName = "[No Variations]"
+Added Component: Designator=CLK?(ASE-48.000MHZ-LC-T)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(0402C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CMPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFG"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFGPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Noplace"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power_WV_SRF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(0402C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CMPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFG"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFGPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Noplace"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power_WV_SRF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=CLK?-2
+Added Pin To Net: NetName=3V3 Pin=CLK?-4
+Added Pin To Net: NetName=3V3 Pin=R?-2
+Added Pin To Net: NetName=3V3 Pin=R?-2
+Added Pin To Net: NetName=3V3 Pin=U1-10
+Added Pin To Net: NetName=3V3 Pin=U1-14
+Added Pin To Net: NetName=3V3 Pin=U1-30
+Added Pin To Net: NetName=3V3 Pin=U1-31
+Added Pin To Net: NetName=NetCLK?_3 Pin=CLK?-3
+Added Pin To Net: NetName=NetCLK?_3 Pin=U1-27
+Added Net: Name=NetCLK?_3
+Added Pin To Net: NetName=NetR?_1 Pin=R?-1
+Added Pin To Net: NetName=NetR?_1 Pin=U1-18
+Added Pin To Net: NetName=NetR?_1 Pin=U?-8
+Added Net: Name=NetR?_1
+Added Member To Class: ClassName=USB_HUB Member=Component C? 0.1uF
+Added Member To Class: ClassName=USB_HUB Member=Component C? 0.1uF
+Added Member To Class: ClassName=USB_HUB Member=Component CLK? ASE-48.000MHZ-LC-T
+Added Member To Class: ClassName=USB_HUB Member=Component R? 10k
+Added Member To Class: ClassName=USB_HUB Member=Component R? 10k
