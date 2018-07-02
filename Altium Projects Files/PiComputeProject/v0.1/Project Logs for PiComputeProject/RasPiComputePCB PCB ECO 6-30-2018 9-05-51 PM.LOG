@@ -1,0 +1,50 @@
+Removed Pin From Net: NetName=GND Pin=P1-P1
+Removed Pin From Net: NetName=GND Pin=P1-P2
+Removed Pin From Net: NetName=GND Pin=P2-P1
+Removed Pin From Net: NetName=GND Pin=P2-P2
+Added Component: Designator=R?(0402C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CMPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFG"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFGPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Noplace"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power_WV_SRF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(0402C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CMPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFG"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFGPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Noplace"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power_WV_SRF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "649"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=3V3 Pin=U1-23
+Added Pin To Net: NetName=GND Pin=U1-24
+Added Pin To Net: NetName=GND Pin=U1-25
+Added Pin To Net: NetName=GND Pin=U1-27
+Added Pin To Net: NetName=3V3 Pin=U1-32
+Added Pin To Net: NetName=GND Pin=U1-33
+Added Pin To Net: NetName=3V3 Pin=U1-37
+Added Pin To Net: NetName=3V3 Pin=U1-44
+Added Pin To Net: NetName=NetCLK1_3 Pin=CLK1-3
+Added Pin To Net: NetName=NetCLK1_3 Pin=U1-14
+Added Net: Name=NetCLK1_3
+Added Pin To Net: NetName=NetR?_2 Pin=R?-2
+Added Pin To Net: NetName=NetR?_2 Pin=U1-11
+Added Net: Name=NetR?_2
+Added Pin To Net: NetName=NetU1_1 Pin=U1-1
+Added Pin To Net: NetName=NetU1_1 Pin=U1-7
+Added Pin To Net: NetName=NetU1_1 Pin=U1-12
+Added Pin To Net: NetName=NetU1_1 Pin=U1-16
+Added Pin To Net: NetName=NetU1_1 Pin=U1-19
+Added Pin To Net: NetName=NetU1_1 Pin=U1-34
+Added Pin To Net: NetName=NetU1_1 Pin=U1-38
+Added Net: Name=NetU1_1
+Added Member To Class: ClassName=USB_HUB Member=Component R? 100k
+Added Member To Class: ClassName=USB_HUB Member=Component R? 649
