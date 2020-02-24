@@ -1,0 +1,147 @@
+Added Component: Designator=C1(0603C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CMPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Reg Num"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFG"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFGPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Noplace"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power_WV_SRF"; Value = "35V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temp Coef"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10000pF"; VariantName = "[No Variations]"
+Added Component: Designator=C2(0603C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CMPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Reg Num"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFG"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFGPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Noplace"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power_WV_SRF"; Value = "35V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temp Coef"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1000pF"; VariantName = "[No Variations]"
+Added Component: Designator=C3(0603C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CMPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Reg Num"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFG"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFGPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Noplace"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power_WV_SRF"; Value = "35V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temp Coef"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Added Component: Designator=C4(0603C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CMPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Reg Num"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFG"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFGPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Noplace"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power_WV_SRF"; Value = "35V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temp Coef"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10000pF"; VariantName = "[No Variations]"
+Added Component: Designator=C5(0603C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CMPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Reg Num"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFG"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFGPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Noplace"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power_WV_SRF"; Value = "35V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temp Coef"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1000pF"; VariantName = "[No Variations]"
+Added Component: Designator=C6(0603C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CMPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Reg Num"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFG"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFGPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Noplace"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power_WV_SRF"; Value = "35V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temp Coef"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Added Component: Designator=J1(0731000105)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J2(2.54mm Pitch Header)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J3(0731000105)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R1(0603C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CMPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFG"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFGPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Noplace"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power_WV_SRF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "12.4k"; VariantName = "[No Variations]"
+Added Component: Designator=R2(0603C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CMPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFG"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFGPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Noplace"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power_WV_SRF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "12.4k"; VariantName = "[No Variations]"
+Added Component: Designator=U1(MIC920)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U2(MIC920)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=GND Pin=J3-2
+Added Pin To Net: NetName=GND Pin=J3-2
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=GND Pin=U2-2
+Added Net: Name=GND
+Added Pin To Net: NetName=NetJ1_1 Pin=J1-1
+Added Pin To Net: NetName=NetJ1_1 Pin=U1-1
+Added Net: Name=NetJ1_1
+Added Pin To Net: NetName=NetJ2_2 Pin=J2-2
+Added Pin To Net: NetName=NetJ2_2 Pin=R1-2
+Added Net: Name=NetJ2_2
+Added Pin To Net: NetName=NetJ2_3 Pin=J2-3
+Added Pin To Net: NetName=NetJ2_3 Pin=U1-1
+Added Net: Name=NetJ2_3
+Added Pin To Net: NetName=NetJ2_4 Pin=J2-4
+Added Pin To Net: NetName=NetJ2_4 Pin=U2-1
+Added Net: Name=NetJ2_4
+Added Pin To Net: NetName=NetJ3_1 Pin=J3-1
+Added Pin To Net: NetName=NetJ3_1 Pin=U2-1
+Added Net: Name=NetJ3_1
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=NetR1_1 Pin=R2-2
+Added Pin To Net: NetName=NetR1_1 Pin=U1-3
+Added Pin To Net: NetName=NetR1_1 Pin=U2-3
+Added Net: Name=NetR1_1
+Added Pin To Net: NetName=VCC Pin=C1-1
+Added Pin To Net: NetName=VCC Pin=C2-1
+Added Pin To Net: NetName=VCC Pin=C3-1
+Added Pin To Net: NetName=VCC Pin=C4-1
+Added Pin To Net: NetName=VCC Pin=C5-1
+Added Pin To Net: NetName=VCC Pin=C6-1
+Added Pin To Net: NetName=VCC Pin=J2-1
+Added Pin To Net: NetName=VCC Pin=U1-5
+Added Pin To Net: NetName=VCC Pin=U2-5
+Added Net: Name=VCC
+Added Class: Name=OpAmpSCH
