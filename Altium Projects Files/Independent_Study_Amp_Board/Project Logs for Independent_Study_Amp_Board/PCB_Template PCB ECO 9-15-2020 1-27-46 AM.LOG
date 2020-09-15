@@ -1,0 +1,20 @@
+Added Component: Designator=U?(MODULE_TE0725-03-35-2C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Trenz Electronic GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "TE0725-03-35-2C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Trenz Electronic GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/TE0725-03-35-2C/Trenz%20Electronic%20GmbH/view-part/4794770/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U?(MODULE_TE0725-03-35-2C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Trenz Electronic GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "TE0725-03-35-2C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Trenz Electronic GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/TE0725-03-35-2C/Trenz%20Electronic%20GmbH/view-part/4794770/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Class: Name=FPGA_Socket
+Added Room: Name=FPGA_Socket

@@ -1,0 +1,8 @@
+Added Component: Designator=J17(0731000105)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=J17-2
+Added Pin To Net: NetName=GND Pin=J17-2
+Added Pin To Net: NetName=NetJ17_1 Pin=J17-1
+Added Pin To Net: NetName=NetJ17_1 Pin=U7-20_1
+Added Net: Name=NetJ17_1
+Added Member To Class: ClassName=FPGA_Socket Member=Component J17 0731000105
