@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=VCC Pin=C1-1
+Removed Pin From Net: NetName=GND Pin=C1-2
+Removed Pin From Net: NetName=VCC Pin=C2-1
+Removed Pin From Net: NetName=GND Pin=C2-2
+Removed Pin From Net: NetName=VCC Pin=C3-1
+Removed Pin From Net: NetName=GND Pin=C3-2
+Removed Pin From Net: NetName=GND Pin=U1-2
+Removed Pin From Net: NetName=NetR1_1 Pin=U1-3
+Removed Pin From Net: NetName=NetJ1_1 Pin=U1-4
+Removed Pin From Net: NetName=VCC Pin=U1-5
+Removed Member From Class: ClassName=OpAmpSCH Member=C1
+Removed Member From Class: ClassName=OpAmpSCH Member=C2
+Removed Member From Class: ClassName=OpAmpSCH Member=C3
+Removed Member From Class: ClassName=OpAmpSCH Member=U1
+Added Pin To Net: NetName=NetJ1_1 Pin=U2-1
+Added Room: Name=OpAmpSCH

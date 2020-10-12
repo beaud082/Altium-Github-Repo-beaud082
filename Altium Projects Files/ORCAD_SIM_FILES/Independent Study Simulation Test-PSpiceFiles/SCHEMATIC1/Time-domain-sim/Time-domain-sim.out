@@ -1,0 +1,94 @@
+
+**** 09/29/20 12:09:04 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Time-domain-sim"  [ C:\USERS\BENJAMIN BEAUDOIN\DOCUMENTS\GITHUB\ALTIUM-GITHUB-REPO-BEAUD082\ALTIUM PROJECTS 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Time-domain-sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 100us 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source INDEPENDENT STUDY SIMULATION TEST
+R_R1         N00268 N00355  2200 TC=0,0 
+R_R2         N00268 0  2200 TC=0,0 
+V_V1         N00355 0 DC 3.3V  
+R_R3         N00795 0  1M TC=0,0 
+V_V2         N00519 0 DC 7.5V  
+V_V3         N00668 0  
++PULSE 0 3.3V 0 0.01uS 0.01uS 5uS 10uS
+E_U1         N00795 0 VALUE {LIMIT(V(N00668,N00268)*1E6,0V,7.5V)}
+
+**** RESUMING Time-domain-sim.cir ****
+.END
+
+**** 09/29/20 12:09:04 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Time-domain-sim"  [ C:\USERS\BENJAMIN BEAUDOIN\DOCUMENTS\GITHUB\ALTIUM-GITHUB-REPO-BEAUD082\ALTIUM PROJECTS 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00268)    1.6500 (N00355)    3.3000 (N00519)    7.5000 (N00668)    0.0000     
+
+(N00795)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -7.500E-04
+    V_V2         0.000E+00
+    V_V3         0.000E+00
+
+    TOTAL POWER DISSIPATION   2.48E-03  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 09/29/20 12:09:04 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Time-domain-sim"  [ C:\USERS\BENJAMIN BEAUDOIN\DOCUMENTS\GITHUB\ALTIUM-GITHUB-REPO-BEAUD082\ALTIUM PROJECTS 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+

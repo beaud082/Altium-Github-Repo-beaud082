@@ -1,0 +1,35 @@
+Removed Pin From Net: NetName=NetU1_1 Pin=U2-1
+Removed Pin From Net: NetName=NetU1_1 Pin=U3-1
+Removed Pin From Net: NetName=NetU1_1 Pin=U4-1
+Removed Pin From Net: NetName=NetR1_2 Pin=U7-18_1
+Removed Pin From Net: NetName=NetU1_1 Pin=U9-1
+Removed Pin From Net: NetName=NetU1_1 Pin=U10-1
+Removed Pin From Net: NetName=NetU1_1 Pin=U11-1
+Removed Pin From Net: NetName=NetU1_1 Pin=U12-1
+Removed Pin From Net: NetName=NetU1_1 Pin=U13-1
+Removed Pin From Net: NetName=NetU1_1 Pin=U14-1
+Added Pin To Net: NetName=NetU1_1 Pin=U7-8_1
+Added Pin To Net: NetName=NetR1_2 Pin=U7-28_1
+Added Pin To Net: NetName=NetU7_12_1 Pin=U9-1
+Added Pin To Net: NetName=NetU7_14_1 Pin=U10-1
+Added Pin To Net: NetName=NetU7_16_1 Pin=U12-1
+Added Pin To Net: NetName=NetU2_1 Pin=U2-1
+Added Pin To Net: NetName=NetU2_1 Pin=U7-20_1
+Added Net: Name=NetU2_1
+Added Pin To Net: NetName=NetU3_1 Pin=U3-1
+Added Pin To Net: NetName=NetU3_1 Pin=U7-10_1
+Added Net: Name=NetU3_1
+Added Pin To Net: NetName=NetU4_1 Pin=U4-1
+Added Pin To Net: NetName=NetU4_1 Pin=U7-22_1
+Added Net: Name=NetU4_1
+Added Pin To Net: NetName=NetU7_18_1 Pin=U7-18_1
+Added Pin To Net: NetName=NetU7_18_1 Pin=U14-1
+Added Net: Name=NetU7_18_1
+Added Pin To Net: NetName=NetU7_24_1 Pin=U7-24_1
+Added Pin To Net: NetName=NetU7_24_1 Pin=U11-1
+Added Net: Name=NetU7_24_1
+Added Pin To Net: NetName=NetU7_26_1 Pin=U7-26_1
+Added Pin To Net: NetName=NetU7_26_1 Pin=U13-1
+Added Net: Name=NetU7_26_1
+Added Room: Name=FPGA_Socket
+Added Room: Name=Power
