@@ -1,41 +1,44 @@
 #include "dmx.h"
 #include <arduino.h>
 
-static uint8_t UnivADmx[512];
-static uint8_t UnivBDmx[512];
-static uint8_t UnivCDmx[512];
-static uint8_t UnivDDmx[512];
+#define UNIVERSE_SIZE 512
+
+static uint8_t UnivADmx[UNIVERSE_SIZE];
+static uint8_t UnivBDmx[UNIVERSE_SIZE];
+static uint8_t UnivCDmx[UNIVERSE_SIZE];
+static uint8_t UnivDDmx[UNIVERSE_SIZE];
+
+static void _clearDMX(uint8_t * const universe)
+{
+  memset(universe, 0, UNIVERSE_SIZE);
+}
 
 void clearDMX(){
-  for(int i = 0; i<512;i++){
-        UnivADmx[i] = 0x0;
-        UnivBDmx[i] = 0x0;
-        UnivCDmx[i] = 0x0;
-        UnivDDmx[i] = 0x0;        
-      }
+  _clearDMX(UnivADmx);
+  _clearDMX(UnivBDmx);
+  _clearDMX(UnivCDmx);
+  _clearDMX(UnivDDmx);
 }
 
 void clearDMX(DMXUnivEnum universe){
   switch(universe){
     case UniverseA: {
-      for(int i = 0; i<512;i++){
-        UnivADmx[i] = 0x0;
-      }
+      _clearDMX(UnivADmx);
     } break;
     case UniverseB: {
-      for(int i = 0; i<512;i++){
-        UnivBDmx[i] = 0x0;
-      }
+      _clearDMX(UnivBDmx);
     } break;
     case UniverseC: {
-      for(int i = 0; i<512;i++){
-        UnivCDmx[i] = 0x0;
-      }
+      _clearDMX(UnivCDmx);
     } break;
     case UniverseD: {
-      for(int i = 0; i<512;i++){
-        UnivDDmx[i] = 0x0;
-      }
+      _clearDMX(UnivDDmx);
+    } break;
+    case UniverseAll: {
+      _clearDMX(UnivADmx);
+      _clearDMX(UnivBDmx);
+      _clearDMX(UnivCDmx);
+      _clearDMX(UnivDDmx);
     } break;
     default: Serial.println("\nError cannot find universe in clearDMX(DMXUnivEnum universe)");
   }
