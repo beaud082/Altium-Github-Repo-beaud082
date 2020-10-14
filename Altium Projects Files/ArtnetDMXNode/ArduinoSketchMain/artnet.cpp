@@ -8,6 +8,16 @@
 #define ART_NET_HEADER "Art-Net"
 /////////////////////////////////////
 
+/////////Art-Net Settings////////////
+uint8_t netAddr = 0x00;//Artnet net address for the entire node (7bits)
+uint8_t subnetAddr = 0x00;//Artnet subnet address for the entire node (bits 7:4)
+uint8_t AunivAddr = 0x01;//Artnet universe address for output A (bits 3:0)
+uint8_t BunivAddr = 0x02;//Artnet universe address for output B (bits 3:0)
+uint8_t CunivAddr = 0x03;//Artnet universe address for output C (bits 3:0)
+uint8_t DunivAddr = 0x04;//Artnet universe address for output D (bits 3:0)
+
+/////////////////////////////////////
+
 //////////Network settings/////////////
 byte mac[] = {  
   0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
@@ -97,17 +107,30 @@ void artnetParse(){
 }
 
 void runOpDmx(){
-  
-  uint16_t DMXLength = packetBuffer[LENGTH_H] << 8 | packetBuffer[LENGTH_L];
-  Serial.println("ArtDMX Received");
+  if(packetBuffer[NET] == netAddr){
+    
+    uint16_t DMXLength = packetBuffer[LENGTH_H] << 8 | packetBuffer[LENGTH_L];
+    
+    if(packetBuffer[SUBUNI] == (subnetAddr&0xF0)|(AunivAddr&0x0F)){ //check if ArtDmx data is for the universe assigned to output A
+      storeDMX_A(&packetBuffer[DATA], DMXLength);
+    }
+    if(packetBuffer[SUBUNI] == (subnetAddr&0xF0)|(BunivAddr&0x0F)){ //check if ArtDmx data is for the universe assigned to output B
+      storeDMX_B(&packetBuffer[DATA], DMXLength);
+    }
+    if(packetBuffer[SUBUNI] == (subnetAddr&0xF0)|(CunivAddr&0x0F)){ //check if ArtDmx data is for the universe assigned to output C
+      storeDMX_C(&packetBuffer[DATA], DMXLength);
+    }
+    if(packetBuffer[SUBUNI] == (subnetAddr&0xF0)|(DunivAddr&0x0F)){ //check if ArtDmx data is for the universe assigned to output D
+      storeDMX_D(&packetBuffer[DATA], DMXLength);
+    }
+  }
+  /* Serial.println("ArtDMX Received");
   Serial.print("DMX data length: ");
   Serial.println(DMXLength);
   Serial.print("Artnet Net: ");
   Serial.println((uint8_t) packetBuffer[NET]);
   Serial.print("Artnet SUBUNI: ");
-  Serial.println((uint8_t) packetBuffer[SUBUNI]);
-  storeDMX(&packetBuffer[DATA], DMXLength, (uint8_t) packetBuffer[NET], (uint8_t) packetBuffer[SUBUNI]);
-
+  Serial.println((uint8_t) packetBuffer[SUBUNI]); */
 }
 
 void runOpPoll(){

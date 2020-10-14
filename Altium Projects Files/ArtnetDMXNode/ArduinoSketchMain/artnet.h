@@ -7,4 +7,5 @@ void serialSetup();
 void packetRead();
 void artnetParse();
 void packetDump();
+
 #endif
