@@ -3,6 +3,7 @@
 #include <SPI.h>
 #include <Ethernet.h>
 #include <EthernetUdp.h>
+#define UDP_TX_PACKET_MAX_SIZE 550
 #include "dmx.h"
 ////////////Definitions///////////////
 #define ART_NET_HEADER "Art-Net"
@@ -126,7 +127,7 @@ void runOpDmx(){
       Serial.println((subnetAddr&0xF0)|(AunivAddr&0x0F),HEX);
       Serial.print("Artnet SUBUNI: ");
       Serial.println((uint8_t) packetBuffer[SUBUNI],HEX);*/
-      printUniverse(UniverseA);
+      //printUniverse(UniverseA);
     }
     if(packetBuffer[SUBUNI] == ((subnetAddr&0xF0)|(BunivAddr&0x0F))){ //check if ArtDmx data is for the universe assigned to output B
       storeDMX(&packetBuffer[DATA], DMXLength, UniverseB);
@@ -135,6 +136,7 @@ void runOpDmx(){
       Serial.println((subnetAddr&0xF0)|(BunivAddr&0x0F),HEX);
       Serial.print("Artnet SUBUNI: ");
       Serial.println((uint8_t) packetBuffer[SUBUNI],HEX);
+      //printUniverse(UniverseB);
       
     }
     if(packetBuffer[SUBUNI] == ((subnetAddr&0xF0)|(CunivAddr&0x0F))){ //check if ArtDmx data is for the universe assigned to output C
@@ -144,6 +146,7 @@ void runOpDmx(){
       Serial.println((subnetAddr&0xF0)|(CunivAddr&0x0F),HEX);
       Serial.print("Artnet SUBUNI: ");
       Serial.println((uint8_t) packetBuffer[SUBUNI],HEX);
+      //printUniverse(UniverseC);
     }
     if(packetBuffer[SUBUNI] == ((subnetAddr&0xF0)|(DunivAddr&0x0F))){ //check if ArtDmx data is for the universe assigned to output D
       storeDMX(&packetBuffer[DATA], DMXLength, UniverseD);
@@ -152,6 +155,7 @@ void runOpDmx(){
       Serial.println((subnetAddr&0xF0)|(DunivAddr&0x0F),HEX);
       Serial.print("Artnet SUBUNI: ");
       Serial.println((uint8_t) packetBuffer[SUBUNI],HEX);
+      //printUniverse(UniverseD);
     }
   }
 }
@@ -175,7 +179,6 @@ void packetDump(){
       }
         printHex(packetBuffer[i]);
         Serial.print(" ");
-        delay(1);
       
     }
 }
