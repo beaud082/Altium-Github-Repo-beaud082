@@ -119,7 +119,7 @@ void runOpDmx(){
     Serial.print("Artnet SUBUNI: ");
     Serial.println((uint8_t) packetBuffer[SUBUNI],HEX);
     
-    if((uint8_t)packetBuffer[SUBUNI] == (subnetAddr&0xF0)|(AunivAddr&0x0F)){ //check if ArtDmx data is for the universe assigned to output A
+    if(packetBuffer[SUBUNI] == ((subnetAddr&0xF0)|(AunivAddr&0x0F))){ //check if ArtDmx data is for the universe assigned to output A
       storeDMX_A(&packetBuffer[DATA], DMXLength);
       Serial.println("Stored in DMX_A");
       Serial.print("Artnet DMX A SUBUNI: ");
@@ -128,7 +128,7 @@ void runOpDmx(){
       Serial.println((uint8_t) packetBuffer[SUBUNI],HEX);
       
     }
-    if((uint8_t)packetBuffer[SUBUNI] == (subnetAddr&0xF0)|(BunivAddr&0x0F)){ //check if ArtDmx data is for the universe assigned to output B
+    if(packetBuffer[SUBUNI] == ((subnetAddr&0xF0)|(BunivAddr&0x0F))){ //check if ArtDmx data is for the universe assigned to output B
       storeDMX_B(&packetBuffer[DATA], DMXLength);
       Serial.println("Stored in DMX_B");
       Serial.print("Artnet DMX B SUBUNI: ");
@@ -137,7 +137,7 @@ void runOpDmx(){
       Serial.println((uint8_t) packetBuffer[SUBUNI],HEX);
       
     }
-    if((uint8_t)packetBuffer[SUBUNI] == (subnetAddr&0xF0)|(CunivAddr&0x0F)){ //check if ArtDmx data is for the universe assigned to output C
+    if(packetBuffer[SUBUNI] == ((subnetAddr&0xF0)|(CunivAddr&0x0F))){ //check if ArtDmx data is for the universe assigned to output C
       storeDMX_C(&packetBuffer[DATA], DMXLength);
       Serial.println("Stored in DMX_C");
       Serial.print("Artnet DMX C SUBUNI: ");
@@ -145,7 +145,7 @@ void runOpDmx(){
       Serial.print("Artnet SUBUNI: ");
       Serial.println((uint8_t) packetBuffer[SUBUNI],HEX);
     }
-    if((uint8_t)packetBuffer[SUBUNI] == (subnetAddr&0xF0)|(DunivAddr&0x0F)){ //check if ArtDmx data is for the universe assigned to output D
+    if(packetBuffer[SUBUNI] == ((subnetAddr&0xF0)|(DunivAddr&0x0F))){ //check if ArtDmx data is for the universe assigned to output D
       storeDMX_D(&packetBuffer[DATA], DMXLength);
       Serial.println("Stored in DMX_D");
       Serial.print("Artnet DMX D SUBUNI: ");

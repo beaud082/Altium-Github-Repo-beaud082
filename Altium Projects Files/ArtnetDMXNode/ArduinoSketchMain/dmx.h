@@ -6,7 +6,9 @@ enum DMXUnivEnum{ //A way to label my universe outputs in the code so it is read
   UniverseA = 0,
   UniverseB = 1,
   UniverseC = 2,
-  UniverseD = 3
+  UniverseD = 3,
+  UniverseMax,
+  UniverseAll
 };
 
 void clearDMX();
