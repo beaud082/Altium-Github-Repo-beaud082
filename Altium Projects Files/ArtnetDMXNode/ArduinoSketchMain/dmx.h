@@ -11,18 +11,11 @@ enum DMXUnivEnum{ //A way to label my universe outputs in the code so it is read
   UniverseAll
 };
 
-void clearDMX();
+void clearAllDMX();
 void clearDMX(DMXUnivEnum universe);
 
-void storeDMX(unsigned char *DMXinput, uint16_t len, DMXUnivEnum universe);
-void storeDMX_A(unsigned char *DMXinput, uint16_t len);
-void storeDMX_B(unsigned char *DMXinput, uint16_t len);
-void storeDMX_C(unsigned char *DMXinput, uint16_t len);
-void storeDMX_D(unsigned char *DMXinput, uint16_t len);
+void storeDMX(unsigned char *DMXinput, uint16_t len, DMXUnivEnum universe_index);
+void printUniverse(DMXUnivEnum universe_index);
 
-uint8_t* getDMX(DMXUnivEnum universe);
-uint8_t* getDMX_A();
-uint8_t* getDMX_B();
-uint8_t* getDMX_C();
-uint8_t* getDMX_D();
+uint8_t* getDMX(DMXUnivEnum universe_index);
 #endif
