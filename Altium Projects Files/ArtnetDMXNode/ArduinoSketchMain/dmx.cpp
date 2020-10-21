@@ -1,5 +1,5 @@
 #include "dmx.h"
-#include <arduino.h>
+#include <Arduino.h>
 #include <assert.h>
 
 #define UNIVERSE_SIZE 512
