@@ -1,13 +1,17 @@
 #include "artnet.h"
+
 #include "dmxoutput.h"
+#include "dmx.h"
+
 void setup() {
   ethernetSetup();
   serialSetup();
-  dmxserialSetup();
+  dmxInit();
+  // dmxserialSetup();
 }
 
 void loop() {
   //packetRead();
   //artnetParse();
-  outputTest();
+  // outputTest();
 }
