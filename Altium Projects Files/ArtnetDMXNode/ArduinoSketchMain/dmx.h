@@ -11,6 +11,8 @@ enum DMXUnivEnum{ //A way to label my universe outputs in the code so it is read
   UniverseAll
 };
 
+void dmxInit(void);
+
 void clearAllDMX();
 void clearDMX(DMXUnivEnum universe);
 
