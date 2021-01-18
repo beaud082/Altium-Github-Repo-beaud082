@@ -1,20 +1,10 @@
 #include "dmx.h"
-
 #include <Arduino.h>
 #include <assert.h>
-
-#include "dmx_interface.h"
 
 #define UNIVERSE_SIZE 512
 
 static uint8_t Universes[UniverseMax][UNIVERSE_SIZE];
-
-void dmxInit(void)
-{
-  // Just output Universe A for now
-  InitDMXInterface(Universes[UniverseA], UNIVERSE_SIZE);
-}
-
 
 void clearAllDMX(){
   for(int i=0;i<UniverseMax; i++)
