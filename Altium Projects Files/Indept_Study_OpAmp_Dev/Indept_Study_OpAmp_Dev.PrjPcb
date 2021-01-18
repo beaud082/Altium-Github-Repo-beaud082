@@ -71,6 +71,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EAXTHQRM
 
+<<<<<<< HEAD
 [Document3]
 DocumentPath=Job1.OutJob
 AnnotationEnabled=1
@@ -160,6 +161,8 @@ DItemRevisionGUID=
 DocumentPath=Project Outputs for Indept_Study_OpAmp_Dev\Gerbers\OpAmpDevPCB.TXT
 DItemRevisionGUID=
 
+=======
+>>>>>>> parent of feb8195... Save
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -169,9 +172,12 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 
+<<<<<<< HEAD
 [Generic_EDE]
 OutputDir=
 
+=======
+>>>>>>> parent of feb8195... Save
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
@@ -1085,36 +1091,6 @@ NetClassSeparateForBusSections=0
 SelectedOnly=0
 UpdateVariants=1
 PartTypes=0
-ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=ANALOG_LIB.IntLib
-ComponentDesignItemID0=MIC920YC5-TR
-ComponentSymbolReference0=MIC920YC5-TR
-ComponentUpdate0=1
-ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=CON_LIB.IntLib
-ComponentDesignItemID1=0731000105
-ComponentSymbolReference1=0731000105
-ComponentUpdate1=0
-ComponentIsDeviceSheet1=0
-ComponentLibIdentifierKind2=Library Name And Type
-ComponentLibraryIdentifier2=CON_LIB.IntLib
-ComponentDesignItemID2=5-PoS Header 2.54mm
-ComponentSymbolReference2=5-PoS Header 2.54mm
-ComponentUpdate2=0
-ComponentIsDeviceSheet2=0
-ComponentLibIdentifierKind3=Library Name And Type
-ComponentLibraryIdentifier3=GENERIC_LIB.IntLib
-ComponentDesignItemID3=CPoly
-ComponentSymbolReference3=CPoly
-ComponentUpdate3=0
-ComponentIsDeviceSheet3=0
-ComponentLibIdentifierKind4=Library Name And Type
-ComponentLibraryIdentifier4=GENERIC_LIB.IntLib
-ComponentDesignItemID4=R
-ComponentSymbolReference4=R
-ComponentUpdate4=0
-ComponentIsDeviceSheet4=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1128,78 +1104,6 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=CMPN
-ParameterUpdate0=1
-ParameterName1=Comment
-ParameterUpdate1=1
-ParameterName2=Component Kind
-ParameterUpdate2=1
-ParameterName3=Description
-ParameterUpdate3=1
-ParameterName4=Distributor
-ParameterUpdate4=1
-ParameterName5=Distributor Reg Num
-ParameterUpdate5=1
-ParameterName6=Library Reference
-ParameterUpdate6=1
-ParameterName7=MFG
-ParameterUpdate7=1
-ParameterName8=MFGPN
-ParameterUpdate8=1
-ParameterName9=Noplace
-ParameterUpdate9=1
-ParameterName10=Power_WV_SRF
-ParameterUpdate10=1
-ParameterName11=Temp Coef
-ParameterUpdate11=1
-ParameterName12=Tolerance
-ParameterUpdate12=1
-ParameterName13=Value
-ParameterUpdate13=1
-ModelTypeGroup0=PCBLIB
-ModelTypeUpdate0=1
-ModelType0=PCBLIB
-ModelName0=0201C
-ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=0402C
-ModelUpdate1=1
-ModelType2=PCBLIB
-ModelName2=0603C
-ModelUpdate2=1
-ModelType3=PCBLIB
-ModelName3=0731000105
-ModelUpdate3=1
-ModelType4=PCBLIB
-ModelName4=0805C
-ModelUpdate4=1
-ModelType5=PCBLIB
-ModelName5=1206C
-ModelUpdate5=1
-ModelType6=PCBLIB
-ModelName6=1210C
-ModelUpdate6=1
-ModelType7=PCBLIB
-ModelName7=2.54mm Pitch Header
-ModelUpdate7=1
-ModelType8=PCBLIB
-ModelName8=MIC920
-ModelUpdate8=1
-ModelType9=PCBLIB
-ModelName9=RESC6432X70N
-ModelUpdate9=1
-ModelType10=PCBLIB
-ModelName10=TANTSMT_A
-ModelUpdate10=1
-ModelType11=PCBLIB
-ModelName11=TANTSMT_B
-ModelUpdate11=1
-ModelType12=PCBLIB
-ModelName12=TANTSMT_C
-ModelUpdate12=1
-ModelType13=PCBLIB
-ModelName13=TANTSMT_D
-ModelUpdate13=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
