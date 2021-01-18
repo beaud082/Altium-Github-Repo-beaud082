@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for Indept_Study_OpAmp_Dev
 LogFolderPath=
 ManagedProjectGUID=
 LinkedManagedProjectGUID=
@@ -93,71 +93,35 @@ DocumentPath=Project Outputs for Free Documents\Gerbers\OpAmpDevPCB.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Indept_Study_OpAmp_Dev\Gerbers\OpAmpDevPCB.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument3]
 DocumentPath=Project Outputs for Free Documents\Gerbers\OpAmpDevPCB.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument4]
-DocumentPath=Project Outputs for Indept_Study_OpAmp_Dev\Gerbers\OpAmpDevPCB.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument5]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for Free Documents\Gerbers\OpAmpDevPCB.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument6]
-DocumentPath=Project Outputs for Indept_Study_OpAmp_Dev\Gerbers\OpAmpDevPCB.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument7]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for Free Documents\Gerbers\OpAmpDevPCB.GM1
 DItemRevisionGUID=
 
-[GeneratedDocument8]
-DocumentPath=Project Outputs for Indept_Study_OpAmp_Dev\Gerbers\OpAmpDevPCB.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument9]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for Free Documents\Gerbers\OpAmpDevPCB.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument10]
-DocumentPath=Project Outputs for Indept_Study_OpAmp_Dev\Gerbers\OpAmpDevPCB.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument11]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for Free Documents\Gerbers\OpAmpDevPCB.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument12]
-DocumentPath=Project Outputs for Indept_Study_OpAmp_Dev\Gerbers\OpAmpDevPCB.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument13]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for Free Documents\Gerbers\OpAmpDevPCB.REP
 DItemRevisionGUID=
 
-[GeneratedDocument14]
-DocumentPath=Project Outputs for Indept_Study_OpAmp_Dev\Gerbers\OpAmpDevPCB.REP
-DItemRevisionGUID=
-
-[GeneratedDocument15]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for Free Documents\Gerbers\OpAmpDevPCB.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument16]
-DocumentPath=Project Outputs for Indept_Study_OpAmp_Dev\Gerbers\OpAmpDevPCB.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument17]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for Free Documents\Gerbers\OpAmpDevPCB.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for Indept_Study_OpAmp_Dev\Gerbers\OpAmpDevPCB.TXT
 DItemRevisionGUID=
 
 [Configuration1]
@@ -170,12 +134,12 @@ OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for Indept_Study_OpAmp_Dev
 
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Libraries_WiFi_BW
+TargetPrinter=OneNote
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -286,7 +250,7 @@ OutputDefault21=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Libraries_WiFi_BW
+TargetPrinter=OneNote
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -375,7 +339,7 @@ PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Libraries_WiFi_BW
+TargetPrinter=OneNote
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -397,7 +361,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Libraries_WiFi_BW
+TargetPrinter=OneNote
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -469,7 +433,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Libraries_WiFi_BW
+TargetPrinter=OneNote
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -506,7 +470,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Libraries_WiFi_BW
+TargetPrinter=OneNote
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -686,7 +650,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Libraries_WiFi_BW
+TargetPrinter=OneNote
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Component states check
 OutputName1=Vault's components states check
@@ -725,7 +689,7 @@ OutputDefault6=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Libraries_WiFi_BW
+TargetPrinter=OneNote
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -776,7 +740,7 @@ OutputDefault9=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Libraries_WiFi_BW
+TargetPrinter=OneNote
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
